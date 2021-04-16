@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;900&display=swap');
+.container {
+  min-width: 1000px;
+  animation: fadeIn;
+  animation-duration: 2s;
+  font-family: 'Roboto';
+  font-weight: 400;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 1000;
+  padding-left: 16.3em;
+  padding-right: 16.3em;
+  background-color: #ffff;
+  border-bottom: 1px solid rgba(230, 225, 225, 0.356);
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  object-fit: contain;
+}
+
+.content {
+  padding-left: 16.3em;
+  padding-right: 16.3em;
+  padding-top: 2.3em;
+}
+
+.ant-btn .btn-sendMessage {
+  background-color: yellow;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 6em;
+  padding: 10px;
+}
+
+.flex-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-between {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.flex-about {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.fixed {
+  display: flex;
+  top: 0;
+  z-index: 1000;
+}
+
+.presentation {
+  width: 400px;
+}
+
+.presentation h1 {
+  font-weight: 900;
+  font-size: 50px;
+}
+
+.img-catsaurus {
+  width: 600px;
+  height: 400px;
+  object-fit: contain;
+}
+
+.showcase {
+  padding: 20px;
+  margin-top: 6em;
+}
+
+.showcase h1 {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+/* ShowCases */
+
+.fadeIn {
+  animation: fadeIn;
+  animation-duration: 1s;
+}
+
+.zoom {
+  width: 350px;
+  /* [1.1] Set it as per your need */
+  overflow: hidden;
+}
+
+.zoom img {
+  transition: transform .5s ease;
+}
+
+.zoom:hover img {
+  transform: scale(1.5);
+}
+
+.flex-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.mt-3 {
+  margin-top: 30px;
+}
+
+.ml-3 {
+  margin-left: 80px;
+}
+
+.mr-3 {
+  margin-right: 80px;
+}
+
+.shadow {
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+}
+
+.img1 {
+  width: 350px;
+  height: 300px;
+}
+
+.img2 {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.img3 {
+  width: 350px;
+  height: 500px;
+  object-fit: cover;
+}
+
+.img4 {
+  width: 350px;
+  height: 300px;
+}
+
+.img5 {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.img6 {
+  width: 350px;
+  height: 500px;
+  background: maroon;
+  object-fit: cover;
+}
+
+/* BRAND */
+
+.zoom-out {
+  transition: transform .2s;
+  /* Animation */
+}
+
+.zoom-out:hover {
+  transform: scale(1.2);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.flex-brand {
+  margin-top: 84px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.width-img-brand {
+  max-width: 300px;
+}
+
+.brand-image {
+  height: 140px;
+  width: 180px;
+}
+
+.brand-infinite {
+  height: 140px;
+  width: 140px;
+}
+
+.brand-bee {
+  height: 140px;
+  width: 140px;
+}
+
+.brand-perfect {
+  height: 130px;
+  width: 150px;
+}
+
+.brand-house {
+  height: 110px;
+  width: 110px;
+}
+
+.brand-eye {
+  height: 115px;
+  width: 115px;
+}
+
+/* About */
+
+.title-about {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.zoom-out-man {
+  transition: transform .2s;
+  /* Animation */
+}
+
+.zoom-out-man:hover {
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.zoom-out-women {
+  transition: transform .2s;
+  /* Animation */
+}
+
+.zoom-out-women:hover {
+  transform: scale(1.1);
+  /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.mt-84 {
+  margin-top: 84px;
+}
+
+.p-about {
+  width: 500px;
+}
+
+.man {
+  margin-right: 50px;
+}
+
+.woman {
+  margin-left: 50px;
+}
+
+.little-about {
+  width: 300px;
+  margin-left: 50px;
+}
+
+/* Blog */
+
+.title-blog {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.p-blog {
+  width: 500px;
+}
+
+.flex-blog {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-blog {
+  width: 300px;
+  overflow: hidden;
+}
+
+.card-blog:hover {
+  animation: headShake;
+  /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1s;
+}
+
+.p-1 {
+  padding: 15px;
+}
+
+.ml-4 {
+  margin-left: 100px;
+}
+
+.mr-4 {
+  margin-right: 100px;
+}
+
+.mb-2 {
+  margin-bottom: 20px;
+}
+
+/* Contact Us */
+
+.title-contact {
+  font-weight: 900;
+  font-size: 35px;
+}
+
+.subtitle {
+  font-weight: 500;
+  font-size: 28px;
+}
+
+.p-contact {
+  width: 500px;
+}
+
+.contact-image:hover {
+  animation: pulse;
+  animation-duration: 2s;
+}
+
+.width-form {
+  width: 350px;
+}
+
+.border {
+  border: 1px solid #e0e1e2b2;
+  border-radius: 4px;
+}
+
+.flex-contact {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.mt-5 {
+  margin-top: 50px;
+}
+
+.facebook {
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.facebook:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.twitter {
+  font-size: 30px;
+  margin-right: 20px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.twitter:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+.dribble {
+  font-size: 30px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.dribble:hover {
+  animation: bounce;
+  animation-duration: 1s;
+}
+
+/* Footer */
+
+.white {
+  color: whitesmoke;
+  display: flex;
+}
+
+footer {
+  background-color: #292b2c;
+  text-align: center;
+  align-items: center;
+  padding: 18px;
+  margin-top: 30px;
+}
+
+.ant-btn.btn-up {
+  background-color: #62676941;
+  border: none;
+  position: absolute;
+  right: 1%;
+}
+
+.ant-btn.btn-up:hover {
+  background-color: #92a1a5;
+  color: whitesmoke;
+  border: none;
+}
+
+@media (max-width: 935px) {
+  .img-catsaurus {
+    margin-top: 40px;
+    width: 400px;
+    height: 200px;
+    object-fit: contain;
+  }
+  .presentation h1 {
+    font-size: 40px;
+  }
+  .showcase h1 {
+    font-size: 30px;
+  }
+  .title-about {
+    font-size: 30px;
+  }
+  .title-blog {
+    font-size: 30px;
+  }
+  .title-contact {
+    font-size: 30px;
+  }
+  .subtitle {
+    font-size: 24px;
+  }
+}
